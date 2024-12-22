@@ -52,6 +52,12 @@ Abrir **Terminal** e digite abaixo:
     Vá até o arquivo **.eslintrc** na pasta raíz do projeto e dentro de **extends**, logo acima do plugin do prettier, adicione mais um plugin nessa lista.
     "plugin:cypress/recommended"
 
+Abrir **Terminal** e digite abaixo o teste automação:
+- ` Executar  geral ` npx cypress run
+- ` Executar  especifico ` npx cypress run --spec "caminho-do-arquivo-do-teste"
+- ` Executar browser Edge ` npx cypress run -- browser edge
+
+
 
 ## 🔎 Observações
 - [ ] Revisar vídeo

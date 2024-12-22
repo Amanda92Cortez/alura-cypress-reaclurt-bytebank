@@ -34,9 +34,79 @@
       "data": "05/01/2023",
       "mes": "Janeiro",
       "id": 5
+    },
+    {
+      "transacao": "",
+      "valor": "",
+      "data": "22/12/2024",
+      "mes": "Dezembro",
+      "id": 6
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "80",
+      "data": "22/12/2024",
+      "mes": "Dezembro",
+      "id": 7
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "80",
+      "data": "22/12/2024",
+      "mes": "Dezembro",
+      "id": 8
+    },
+    {
+      "transacao": "Depósito",
+      "valor": "80",
+      "data": "22/12/2024",
+      "mes": "Dezembro",
+      "id": 9
+    },
+    {
+      "transacao": "Depósito",
+      "valor": "80",
+      "data": "22/12/2024",
+      "mes": "Dezembro",
+      "id": 10
+    },
+    {
+      "transacao": "Depósito",
+      "valor": "480",
+      "data": "22/12/2024",
+      "mes": "Dezembro",
+      "id": 11
+    },
+    {
+      "transacao": "Depósito",
+      "valor": "480",
+      "data": "22/12/2024",
+      "mes": "Dezembro",
+      "id": 12
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "80",
+      "data": "22/12/2024",
+      "mes": "Dezembro",
+      "id": 13
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "80",
+      "data": "22/12/2024",
+      "mes": "Dezembro",
+      "id": 14
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "80",
+      "data": "22/12/2024",
+      "mes": "Dezembro",
+      "id": 15
     }
   ],
   "saldo": {
-    "valor": 3750
+    "valor": 720
   }
 }
