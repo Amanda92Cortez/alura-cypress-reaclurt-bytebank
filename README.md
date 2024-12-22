@@ -56,7 +56,7 @@ Abrir **Terminal** e digite abaixo o teste automação:
 - ` Executar  geral ` npx cypress run
 - ` Executar  especifico ` npx cypress run --spec "caminho-do-arquivo-do-teste"
 - ` Executar browser Edge ` npx cypress run -- browser edge
-
+- ` Executar Mobile ` npx cypress open --config viewportWidth=375,viewportHeight=667
 
 
 ## 🔎 Observações
