@@ -42,13 +42,15 @@ Baixar projeto:
 Após baixar o projeto, você pode abrir com o **VSCode**. 
 - ` Baixar npm pasta API ` npm install
 - ` Baixar npm pasta main ` npm install
-- ` Baixar npm pasta cypress ` npm install cypress
+- ` Baixar npm pasta cypress ` npm install cypress / npm i eslint-plugin-cypress
 
 Abrir **Terminal** e digite abaixo:
 - ` Executar dentro pasta API ` npm start-api
 - ` Executar dentro main ` npm start
     Irá abrir http://localhost:3000
 - ` Executar dentro cypress para criar configuração` npx cypress open
+    Vá até o arquivo **.eslintrc** na pasta raíz do projeto e dentro de **extends**, logo acima do plugin do prettier, adicione mais um plugin nessa lista.
+    "plugin:cypress/recommended"
 
 
 ## 🔎 Observações
