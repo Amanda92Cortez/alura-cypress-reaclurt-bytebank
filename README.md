@@ -6,7 +6,7 @@ O Bytebank é um MVP de banco digital que está no início de suas atividades ma
 
 
 </br>
-<p align="center"> <img src="http://img.shields.io/static/v1?label=STATUS_GERAL&message=ANDAMENTO&color=BLUE&style=for-the-badge" #vitrinedev/> </p>
+<p align="center"> <img src="http://img.shields.io/static/v1?label=STATUS_GERAL&message=FINALIZADO&color=RED&style=for-the-badge" #vitrinedev/> </p>
 
 # Testes end to end com Cypress
 O Bytebank é um MVP de banco digital que está no início de suas atividades mas ainda falta muito que ser desenvolvido.
