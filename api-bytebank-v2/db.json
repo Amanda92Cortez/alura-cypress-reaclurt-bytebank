@@ -39,9 +39,9 @@
     },
     {
       "id": "c691fd15-dcd5-4f24-89da-cdfa3cef9d67",
-      "nome": "Vinicius Neves",
+      "nome": "Marcos Vinicius Neves",
       "email": "vinny@alura.com",
-      "senha": "789456",
+      "senha": "123456",
       "transacoes": [
         {
           "id": "b0411964-c8d4-4742-ad6d-15bb35b71b97",
@@ -65,6 +65,14 @@
       "nome": "Alura Teste",
       "email": "alura@alura.com",
       "senha": "1234",
+      "transacoes": [],
+      "saldo": 0
+    },
+    {
+      "id": "e89126bc-4cc5-4e76-b846-4a1b145e9a97",
+      "nome": "Teste Cortez",
+      "email": "alura@alura.com",
+      "senha": "123456",
       "transacoes": [],
       "saldo": 0
     }
