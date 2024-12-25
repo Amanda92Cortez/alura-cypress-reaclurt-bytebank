@@ -59,6 +59,14 @@
         }
       ],
       "saldo": 3500
+    },
+    {
+      "id": "f6c5efcd-4591-49cd-a69e-d7892d90f651",
+      "nome": "Alura Teste",
+      "email": "alura@alura.com",
+      "senha": "1234",
+      "transacoes": [],
+      "saldo": 0
     }
   ]
 }
