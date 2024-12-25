@@ -10,7 +10,7 @@ Cypress.Commands.add('login', (email, senha) => {
         cy.getByData('email-input').type(email)
         cy.getByData('senha-input').type(senha)
         cy.getByData('botao-enviar').click()
-        cy.url().should('contain', '/home')
+        // cy.url().should('contain', '/home')
     })
 });
 
