@@ -11,7 +11,7 @@ describe('Cadastro de Login', () => {
         cy.getByData('mensagem-erro').should('exist').and('have.text','O campo de senha é obrigatório')
     })
 
-    it.only('No cadastro não deve permirit um campo nome vazio', () => {
+    it('No cadastro não deve permirit um campo nome vazio', () => {
         cy.getByData('botao-cadastro').click()
         cy.getByData('email-input').type('teste@alura.com')
         cy.getByData('senha-input').type('1234')
@@ -19,11 +19,11 @@ describe('Cadastro de Login', () => {
         cy.getByData('mensagem-erro').should('exist').and('have.text','O campo de nome é obrigatório')
     })
 
-    it('Realizando o cadastro de usuário com sucesso', () => {
+    it.only('Realizando o cadastro de usuário com sucesso', () => {
         cy.getByData('botao-cadastro').click()
-        cy.getByData('nome-input').type('Gui Lima')
-        cy.getByData('email-input').type('gui@email.com')
-        cy.getByData('senha-input').type('456789')
+        cy.getByData('nome-input').type('Alura Teste')
+        cy.getByData('email-input').type('alura@alura.com')
+        cy.getByData('senha-input').type('1234')
         cy.getByData('botao-enviar').click()
         cy.getByData('mensagem-sucesso').should('exist').and('have.text', 'Usuário cadastrado com sucesso!')
     })
