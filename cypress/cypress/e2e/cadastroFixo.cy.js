@@ -19,7 +19,7 @@ describe('Teste de cadastro de usuário', () => {
 
         cy.request('GET', 'http://localhost:8000/users').then((resposta) => {
             expect(resposta.body).to.have.lengthOf.at.least(1);
-            expect(resposta.body[resposta.body.length - 1]).to.deep.include(usuario);
+            expect(resposta.body[resposta.body.length ]).to.deep.include(usuario);
         });
     })
   })
