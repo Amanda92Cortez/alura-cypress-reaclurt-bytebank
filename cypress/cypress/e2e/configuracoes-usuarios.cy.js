@@ -34,6 +34,7 @@ describe('Atualização de dados do usuario', () => {
         expect(textoDoAlert).to.equal('Alterações salvas com sucesso!');
       });
 
+      // Pegar pelo API o acesso
       cy.url().should('include', '/home');
 
       cy.window().then((win) => {
